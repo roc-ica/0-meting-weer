@@ -35,4 +35,11 @@ return [
         ],
     ],
 
+    'openweather' => [
+        'key' => env('OPENWEATHER_API_KEY'),
+        'city' => env('OPENWEATHER_CITY', 'Amsterdam'),
+        'units' => env('OPENWEATHER_UNITS', 'metric'),
+        'lang' => env('OPENWEATHER_LANG', 'en'),
+    ],
+
 ];
