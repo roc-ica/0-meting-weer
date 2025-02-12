@@ -24,11 +24,11 @@
 
 @if(isset($weather))
     <div class="weather-container">
-        <h2>Weather in {{ $weather['name'] }}</h2>
-        <p>Temperature: {{ $weather['main']['temp'] }}°C</p>
-        <p>Weather: {{ ucfirst($weather['weather'][0]['description']) }}</p>
-        <p>Humidity: {{ $weather['main']['humidity'] }}%</p>
-        <p>Wind Speed: {{ $weather['wind']['speed'] }} m/s</p>
+        <h2>Weer in {{ $weather['name'] }}</h2>
+        <p>Hier zie je hoe warm het is jongeh: {{ $weather['main']['temp'] }}°C</p>
+        <p>Weer jongeh: {{ ucfirst($weather['weather'][0]['description']) }}</p>
+        <p>Vochtigheid jongeh: {{ $weather['main']['humidity'] }}%</p>
+        <p>Wind snelheid jongeh: {{ $weather['wind']['speed'] }} m/s</p>
     </div>
 @else
     <p>Weather data is not available. Please try again later.</p>

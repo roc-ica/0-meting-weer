@@ -16,7 +16,7 @@ class WeatherService
         $this->apiKey = config('services.openweather.key');
         $this->city = config('services.openweather.city', 'Eindhoven');
         $this->units = config('services.openweather.units', 'metric');
-        $this->lang = config('services.openweather.lang', 'en');
+        $this->lang = config('services.openweather.lang', 'nl');
     }
 
     public function getWeather()

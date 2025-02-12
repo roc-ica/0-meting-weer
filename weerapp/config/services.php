@@ -37,9 +37,9 @@ return [
 
     'openweather' => [
         'key' => env('OPENWEATHER_API_KEY'),
-        'city' => env('OPENWEATHER_CITY', 'Amsterdam'),
+        'city' => env('OPENWEATHER_CITY', 'Eindhoven'),
         'units' => env('OPENWEATHER_UNITS', 'metric'),
-        'lang' => env('OPENWEATHER_LANG', 'en'),
+        'lang' => env('OPENWEATHER_LANG', 'nl'),
     ],
 
 ];
